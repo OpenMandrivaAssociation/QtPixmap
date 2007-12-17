@@ -11,7 +11,6 @@ BuildRequires:	gtk+-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	libgdkimlib-devel
 Conflicts:	Geramik < 0:0.26
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 This is a hacked/modifed version of the original GTK pixmap engine -
