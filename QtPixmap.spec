@@ -1,15 +1,13 @@
 Name:		QtPixmap
 Version:	0.28
-Release:	%mkrel 7
+Release:	8
 Epoch:		0
 Summary:	GTK engine
 Url:		http://www.kde-look.org/content/show.php?content=7043
 Source0:	%{name}-%{version}.tar.bz2
 License:	GPL
 Group:		Graphical desktop/Other
-BuildRequires:	gtk+-devel
 BuildRequires:	gtk+2-devel
-BuildRequires:	libgdkimlib-devel
 Conflicts:	Geramik < 0:0.26
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
