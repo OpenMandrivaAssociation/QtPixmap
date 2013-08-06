@@ -7,9 +7,8 @@ Url:		http://www.kde-look.org/content/show.php?content=7043
 Source0:	%{name}-%{version}.tar.bz2
 License:	GPL
 Group:		Graphical desktop/Other
-BuildRequires:	gtk+2-devel
+BuildRequires:	gtk+2.0-devel
 Conflicts:	Geramik < 0:0.26
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 This is a hacked/modifed version of the original GTK pixmap engine -
@@ -31,14 +30,10 @@ scheme.
 # remove unpackaged files
 %{__rm} %{buildroot}%{_libdir}/gtk/themes/engines/*.la %{buildroot}%{_libdir}/gtk-2.0/*/engines/*.la
 
-%clean
-%{__rm} -rf %{buildroot}
-
 %files
 %defattr(0644,root,root,0755)
 %doc AUTHORS ChangeLog COPYING INSTALL NEWS README Usage
 %defattr(-,root,root)
-%{_libdir}/gtk/themes/engines/libqtpixmap.so
 %{_libdir}/gtk-2.0/*/engines/libqtpixmap.so
 
 
