@@ -28,7 +28,7 @@ scheme.
 %{makeinstall_std}
 
 # remove unpackaged files
-%{__rm} %{buildroot}%{_libdir}/gtk/themes/engines/*.la %{buildroot}%{_libdir}/gtk-2.0/*/engines/*.la
+%{__rm} %{buildroot}%{_libdir}/gtk-2.0/*/engines/*.la
 
 %files
 %defattr(0644,root,root,0755)
