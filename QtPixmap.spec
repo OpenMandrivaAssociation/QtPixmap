@@ -3,7 +3,7 @@ Version:	0.28
 Release:	9
 Epoch:		0
 Summary:	GTK engine
-Url:		http://www.kde-look.org/content/show.php?content=7043
+Url:		https://www.kde-look.org/content/show.php?content=7043
 Source0:	%{name}-%{version}.tar.bz2
 License:	GPL
 Group:		Graphical desktop/Other
